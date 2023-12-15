@@ -41,11 +41,14 @@ Event listeners are meticulously implemented to ensure that user actions prompt 
 ### Class Diagram Initiative
 A class diagram plays a role, in object oriented programming as it allows us to visualize the structure of a system. It presents an overview of classes, their attributes, methods and how they interact with one another. This helps developers have a blueprint to work with facilitates communication among stakeholders, identifies areas for design enhancements and ensures everyone has a unified understanding of the systems architecture. Ultimately this leads to the development of efficient software.
 
-file:///home/bpandit/Documents/UniversityGreenwich/SoftwareToolsTech/classDiagram.png
+![classDiagram](https://github.com/bp7968h/SimpleMusicalTicketSystem/assets/126598388/68671852-7260-4d0f-9b90-02b08b150efa)
+
 
 ### Innovative Feature
 The London Musical Ticket System is impressive, due to its capabilities, which include a search function, real time database connectivity and visually displaying event images. These features greatly enhance user engagement. The system's interface is intuitive. Incorporates functionalities like disabling the 'Book' button when no tickets are selected. This streamlines the booking process. Enhances the user experience. By combining these elements the system becomes both user friendly and technologically sophisticated.
 * Database Connection: The ShowFetcher class, in the London Musical Ticket System retrieves information about shows by using its fetchEvents method. This method establishes a connection with the database through the connection class, runs a SQL query to gather details about the shows and then fills a list of Event objects with this data. Each Event contains information such as the shows name, image and timing ensuring that the application presents up to date and thorough show information to the user.
+
+  
   file:///home/bpandit/Documents/UniversityGreenwich/SoftwareToolsTech/db.png
 
 * Search Function: The search feature, in the MainPanel of the London Musical Ticket System is designed to be user friendly. Users can enter their search criteria in the searchField. When they click on the searchButton an actionListener is activated. This listener calls ShowFetcher.fetchEvents() to fetch all events and filter them based on the search term. Updates the gridPanel to show the events that are relevant. This makes it easier and more efficient for users to find events they are looking for.
