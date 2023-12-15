@@ -48,10 +48,10 @@ A class diagram plays a role, in object oriented programming as it allows us to 
 The London Musical Ticket System is impressive, due to its capabilities, which include a search function, real time database connectivity and visually displaying event images. These features greatly enhance user engagement. The system's interface is intuitive. Incorporates functionalities like disabling the 'Book' button when no tickets are selected. This streamlines the booking process. Enhances the user experience. By combining these elements the system becomes both user friendly and technologically sophisticated.
 * Database Connection: The ShowFetcher class, in the London Musical Ticket System retrieves information about shows by using its fetchEvents method. This method establishes a connection with the database through the connection class, runs a SQL query to gather details about the shows and then fills a list of Event objects with this data. Each Event contains information such as the shows name, image and timing ensuring that the application presents up to date and thorough show information to the user.
 
-  
-  file:///home/bpandit/Documents/UniversityGreenwich/SoftwareToolsTech/db.png
+  ![db](https://github.com/bp7968h/SimpleMusicalTicketSystem/assets/126598388/3d5c29c2-f123-488d-a054-7e8b2203c082)
 
 * Search Function: The search feature, in the MainPanel of the London Musical Ticket System is designed to be user friendly. Users can enter their search criteria in the searchField. When they click on the searchButton an actionListener is activated. This listener calls ShowFetcher.fetchEvents() to fetch all events and filter them based on the search term. Updates the gridPanel to show the events that are relevant. This makes it easier and more efficient for users to find events they are looking for.
+
 file:///home/bpandit/Documents/UniversityGreenwich/SoftwareToolsTech/search.png
 
 * Use of Images: In the London Musical Ticket Systems MainPanel we use the createEventPanel method to display event images. This method takes each Event objects ImageIcon. Adds it to a JLabel, which is then shown on the grid. To enhance the user interface visually we retrieve the images, from the database through the ShowFetcher.fetchEvents() method giving a representation of each event.
