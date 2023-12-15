@@ -24,6 +24,9 @@ The main goal of the prototype was to create a foundation for the graphical user
 * GUI Elements: For the GUI elements we used Swing components such as JPanels, JButtons, JTextFields and JLabels to lay out the framework of the application.
 * Design Choices:When making design choices our focus was, on ensuring that the user interface is visually pleasing, easy to navigate and self explanatory. We arranged the components in a way that follows a flow of user interaction.
 
+  ![prototype](https://github.com/bp7968h/SimpleMusicalTicketSystem/assets/126598388/37be2569-ddbb-4859-bdec-0e87c2e44d1f)
+
+
 ### Full Implementations
 The implemented system combines a designed graphical user interface (GUI), with strong backend functions.
 * System Description: The final application seamlessly integrates all GUI components with the logic. The MainPanel enables users to search for and display events ViewShowPanel handles ticket selection and BookingSummaryPanel finalizes the booking process.
@@ -36,6 +39,7 @@ Event listeners are meticulously implemented to ensure that user actions prompt 
 
 ### Class Diagram Initiative
 A class diagram plays a role, in object oriented programming as it allows us to visualize the structure of a system. It presents an overview of classes, their attributes, methods and how they interact with one another. This helps developers have a blueprint to work with facilitates communication among stakeholders, identifies areas for design enhancements and ensures everyone has a unified understanding of the systems architecture. Ultimately this leads to the development of efficient software.
+
 file:///home/bpandit/Documents/UniversityGreenwich/SoftwareToolsTech/classDiagram.png
 
 ### Innovative Feature
