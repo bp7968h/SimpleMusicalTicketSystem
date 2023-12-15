@@ -32,6 +32,7 @@ The implemented system combines a designed graphical user interface (GUI), with 
 * System Description: The final application seamlessly integrates all GUI components with the logic. The MainPanel enables users to search for and display events ViewShowPanel handles ticket selection and BookingSummaryPanel finalizes the booking process.
 * Java Technologies and Tools: This application extensively utilizes Java Swing for the GUI, JDBC for connecting to databases. Java I/O for exporting data in CSV format. By combining these technologies we ensure that the application is responsive, data driven and user friendly.
 * Integration of External Data Source; To provide real time event information and store user bookings effectively the system connects to a MySQL database. This integration is essential for keeping event details up to date and securely managing user bookings.
+  
 ![export](https://github.com/bp7968h/SimpleMusicalTicketSystem/assets/126598388/ea7b34c7-99c5-40f1-85fa-2d80beff151a)
 
 ### Event Responsiveness
